@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <h1
+    data-title-e2e-test={true}
+  >
+    Todo app
+  </h1>
+  <input
+    data-new-item-text-field-e2e-test={true}
+  />
+  <button
+    data-create-new-item-button-e2e-test={true}
+  >
+    Add
+  </button>
+  <ul
+    data-todo-list-e2e-test={true}
+  />
+</div>
+`;

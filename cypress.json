@@ -1,0 +1,6 @@
+{
+  "testFiles": "**/*.feature",
+  "reporter": "mocha-junit-reporter",
+  "baseUrl": "http://localhost:3000",
+  "video": false
+}

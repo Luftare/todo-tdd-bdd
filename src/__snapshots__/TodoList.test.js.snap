@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList renders correctly 1`] = `
+<div>
+  <input
+    data-new-item-name-unit-test="true"
+    value=""
+  />
+  <button
+    data-add-item-unit-test="true"
+  >
+    Add
+  </button>
+  <ul>
+    <li>
+      <span>
+        some-text-a
+      </span>
+      <button
+        data-delete-item-unit-test="some-text-a"
+      >
+        x
+      </button>
+    </li>
+    <li>
+      <span>
+        some-text-b
+      </span>
+      <button
+        data-delete-item-unit-test="some-text-b"
+      >
+        x
+      </button>
+    </li>
+    <li>
+      <span>
+        some-text-c
+      </span>
+      <button
+        data-delete-item-unit-test="some-text-c"
+      >
+        x
+      </button>
+    </li>
+  </ul>
+</div>
+`;

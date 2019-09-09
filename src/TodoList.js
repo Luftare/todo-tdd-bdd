@@ -1,29 +1,36 @@
 import React from 'react';
-import Item from './Item';
 
 export default ({
   items,
   addItem,
-  newTodoName,
+  newItemName,
   setNewItemName,
   deleteItem,
 }) => (
   <div>
+    <h1 data-title-e2e-test>Todo App</h1>
+
     <input
-      value={newTodoName}
+      value={newItemName}
       onChange={e => setNewItemName(e.target.value)}
       data-new-item-name-unit-test
+      data-new-item-text-field-e2e-test
     />
-    <button onClick={addItem} data-add-item-unit-test>
+    <button
+      onClick={addItem}
+      data-add-item-unit-test
+      data-create-new-item-button-e2e-test
+    >
       Add
     </button>
-    <ul>
+    <ul data-todo-list-e2e-test>
       {items.map(item => (
-        <li key={item}>
+        <li key={item} data-todo-item-e2e-test={item}>
           <span>{item}</span>
           <button
-            data-delete-item-unit-test={item}
             onClick={() => deleteItem(item)}
+            data-delete-item-unit-test={item}
+            data-delete-button-e2e-test={item}
           >
             x
           </button>

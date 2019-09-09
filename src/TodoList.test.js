@@ -17,6 +17,7 @@ describe('TodoList', () => {
     component = mount(
       <TodoList
         items={['some-text-a', 'some-text-b', 'some-text-c']}
+        newItemName="some text"
         setNewItemName={setNewItemNameStub}
         addItem={addItemStub}
         deleteItem={deleteItemStub}
@@ -34,10 +35,9 @@ describe('TodoList', () => {
     expect(button).toHaveProp('onClick', addItemStub);
   });
 
-  it('input for new item name within, knows how to set new item name', () => {
+  it('input for new item name within, knows how to set name for new item', () => {
     const input = component.find('input[data-new-item-name-unit-test]');
 
-    input.simulate('focus');
     input.simulate('change', { target: { value: 'something' } });
 
     expect(setNewItemNameStub).toHaveBeenCalledWith('something');

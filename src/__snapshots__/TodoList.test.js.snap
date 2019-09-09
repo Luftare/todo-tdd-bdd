@@ -2,41 +2,59 @@
 
 exports[`TodoList renders correctly 1`] = `
 <div>
+  <h1
+    data-title-e2e-test="true"
+  >
+    Todo App
+  </h1>
   <input
     data-new-item-name-unit-test="true"
-    value=""
+    data-new-item-text-field-e2e-test="true"
+    value="some text"
   />
   <button
     data-add-item-unit-test="true"
+    data-create-new-item-button-e2e-test="true"
   >
     Add
   </button>
-  <ul>
-    <li>
+  <ul
+    data-todo-list-e2e-test="true"
+  >
+    <li
+      data-todo-item-e2e-test="some-text-a"
+    >
       <span>
         some-text-a
       </span>
       <button
+        data-delete-button-e2e-test="some-text-a"
         data-delete-item-unit-test="some-text-a"
       >
         x
       </button>
     </li>
-    <li>
+    <li
+      data-todo-item-e2e-test="some-text-b"
+    >
       <span>
         some-text-b
       </span>
       <button
+        data-delete-button-e2e-test="some-text-b"
         data-delete-item-unit-test="some-text-b"
       >
         x
       </button>
     </li>
-    <li>
+    <li
+      data-todo-item-e2e-test="some-text-c"
+    >
       <span>
         some-text-c
       </span>
       <button
+        data-delete-button-e2e-test="some-text-c"
         data-delete-item-unit-test="some-text-c"
       >
         x

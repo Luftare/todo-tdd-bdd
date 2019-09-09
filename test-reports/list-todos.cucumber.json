@@ -22,7 +22,7 @@
             "name": "I navigate to the todo app",
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 132000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I see \"title\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I see \"new item text field\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 8000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I see \"create new item button\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 14000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I see \"todo list\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 5000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "I navigate to the todo app",
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 108000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I type \"some text\" to \"new item text field\"",
             "result": {
               "status": "passed",
-              "duration": 253000000
+              "duration": 267000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I click \"create new item button\"",
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 83000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "\"new item text field\" value is \"\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 14000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I see \"todo item\" for \"some text\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I see \"delete button\" for \"some text\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 8000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "I type \"other text\" to \"new item text field\"",
             "result": {
               "status": "passed",
-              "duration": 281000000
+              "duration": 256000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I click \"create new item button\"",
             "result": {
               "status": "passed",
-              "duration": 86000000
+              "duration": 79000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I see \"todo item\" for \"other text\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 4000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "I see \"delete button\" for \"other text\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 4000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "I click \"delete button\" for \"some text\"",
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 84000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "I do not see \"todo item\" for \"some text\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 5000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I see \"todo item\" for \"other text\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 8000000
             }
           }
         ]
